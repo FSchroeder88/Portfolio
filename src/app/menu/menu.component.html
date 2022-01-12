@@ -1,0 +1,14 @@
+<header [class.headerDark]="darkMode">
+
+
+    <img *ngIf="!darkMode" routerLink="/" src="assets/imgs/LogoMakr.png">
+    <img *ngIf="darkMode" routerLink="/" src="assets/imgs/LogoMakrBlack.png">
+
+    <div [class.darkLinks]="darkMode">
+        <a href="#">Über uns</a>
+        <a routerLink="/data-protection">Data protection</a>
+        <a href="#">Downloads</a>
+        <a routerLink="/impressum">Impressum</a>
+    </div>
+
+</header>
