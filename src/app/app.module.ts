@@ -3,18 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SlideshowComponent } from './slideshow/slideshow.component';
 import { MenuComponent } from './menu/menu.component';
 import { ImpressumComponent } from './impressum/impressum.component';
 import { DataProtectionComponent } from './data-protection/data-protection.component';
+import { HomeComponent } from './home/home.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SlideshowComponent,
     MenuComponent,
     ImpressumComponent,
-    DataProtectionComponent
+    DataProtectionComponent,
+    HomeComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

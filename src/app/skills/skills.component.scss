@@ -1,0 +1,84 @@
+.skills{
+    background-color: #131111;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.skill-headline {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    line-height: 150%;
+    display: flex;
+    justify-content: center;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.container-2 {
+    margin: 30px;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.container-2-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: normal;
+    z-index: 2;
+}
+
+.container-3{
+    width: 200px;
+    height: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    position: absolute;
+    top: -30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: normal;
+    z-index: 3;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px;
+
+    img{
+        width: 30px;
+        height: 30px;
+    }
+}

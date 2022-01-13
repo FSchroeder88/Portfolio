@@ -3,10 +3,10 @@ header {
     left: 0;
     right: 0;
     top: 0;
-    height: 80px;
+    height: 100px;
     z-index: 1;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 150px;
+    padding-right: 150px;
 
     display: flex;
     align-items: center;
@@ -14,7 +14,7 @@ header {
     cursor: pointer;
 
     img {
-        height: 70px;
+        height: 100px;
         cursor: pointer;
     }
 
