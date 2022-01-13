@@ -1,0 +1,24 @@
+.footer{
+    min-height: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer-text{
+    margin-left: 100px;
+}
+
+.social{
+    margin-right: 100px;
+
+    img{
+        width: 40px;
+        height: 40px;
+        padding: 50px;
+    }
+}

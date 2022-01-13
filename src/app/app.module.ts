@@ -8,6 +8,9 @@ import { ImpressumComponent } from './impressum/impressum.component';
 import { DataProtectionComponent } from './data-protection/data-protection.component';
 import { HomeComponent } from './home/home.component';
 import { SkillsComponent } from './skills/skills.component';
+import { MyworkComponent } from './mywork/mywork.component';
+import { AboutMeComponent } from './about-me/about-me.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { SkillsComponent } from './skills/skills.component';
     ImpressumComponent,
     DataProtectionComponent,
     HomeComponent,
-    SkillsComponent
+    SkillsComponent,
+    MyworkComponent,
+    AboutMeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

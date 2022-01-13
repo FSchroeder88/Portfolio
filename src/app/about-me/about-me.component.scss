@@ -1,0 +1,85 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #131111;
+}
+
+.about {
+    padding: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #131111;
+}
+
+.img-picture {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+.about-text {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    font-size: 20px;
+    line-height: 150%;
+
+    h3 {
+        font-size: 35px;
+    }
+}
+
+.line {
+    width: 1000px;
+    height: 0px;
+    border: 1px solid #2dfcd8;
+}
+
+.journey {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-text{
+    width: 250px;
+    margin: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-journey{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #2DFCD8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    img {
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+
+
