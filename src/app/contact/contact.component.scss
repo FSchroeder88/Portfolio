@@ -1,0 +1,45 @@
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.input-container {
+    width: 600px;
+    height: 40px;
+    background-color: #1a1a1a;
+    color: #989898;
+}
+
+.textarea-container{
+    background-color: #1a1a1a;
+    color: #989898;
+    width: 600px;
+    height: 180px;
+}
+
+.contact-text{
+    font-size: 15px;
+    color: white;
+}
+
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.button-send {
+    width: 128px;
+    height: 50px;
+    margin-top: 50px;
+    color: white;
+    border: 2px solid #2DFCD8;
+    background-color: unset;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
