@@ -1,12 +1,12 @@
 .home {
-    min-height: 600px;
-    padding-top: 250px;
-    padding-left: 100px;
-    padding-right: 100px;
+    min-height: 80vh;
+    padding-top: 320px;
+    padding-left: 150px;
+    padding-right: 150px;
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .passport-image {

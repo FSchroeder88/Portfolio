@@ -1,14 +1,14 @@
-<header [class.headerDark]="darkMode">
+<header>
 
 
-    <img *ngIf="!darkMode" routerLink="/" src="assets/imgs/LogoMakr.png">
-    <img *ngIf="darkMode" routerLink="/" src="assets/imgs/LogoMakrBlack.png">
+    
+    <img src="assets/imgs/LogoMakr.png">
 
-    <div [class.darkLinks]="darkMode">
-        <a href="#">Startseite</a>
-        <a href="#">Über mich</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Kontakt</a>
+    <div>
+        <a href="#skills">Fertigkeiten</a>
+        <a href="#projects">Portfolio</a>
+        <a href="#about">Über mich</a>
+        <a href="#contact">Kontakt</a>
 
     </div>
 
