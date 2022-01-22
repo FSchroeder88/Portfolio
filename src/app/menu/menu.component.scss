@@ -7,15 +7,12 @@ header {
     z-index: 1;
     padding-left: 150px;
     padding-right: 150px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-    cursor: pointer;
 
     img {
         height: 100px;
-        cursor: pointer;
     }
 
     a {
@@ -26,22 +23,39 @@ header {
         font-size: 22px;
 
         &:hover {
-            color: rgba(255,255,255,0.8);
+            color: rgba(255, 255, 255, 0.8);
         }
     }
+}
+
+.menu1 {
+    cursor: pointer;
 }
 
 .darkLinks {
     a {
         color: black;
-            
-        &:hover{
-            color: rgba(0,0,0,0.8);
+
+        &:hover {
+            color: rgba(0, 0, 0, 0.8);
         }
     }
 }
 
 .headerDark {
     background-color: white;
-    box-shadow: 0px 1px 3px 0 rgba(0,0,0,0.2);
+    box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 720px) {
+    header {
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .menu {
+        display: none;
+    }
 }

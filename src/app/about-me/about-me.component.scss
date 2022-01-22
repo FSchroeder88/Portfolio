@@ -35,11 +35,8 @@
     padding: 50px;
     font-size: 20px;
     line-height: 150%;
-
-    h3 {
-        font-size: 35px;
-    }
 }
+
 
 .line {
     width: 1000px;
@@ -56,8 +53,10 @@
     align-items: center;
 }
 
-.img-text{
+
+.img-text {
     width: 250px;
+    height: 350px;
     margin: 30px;
     margin-top: 60px;
     margin-bottom: 60px;
@@ -65,26 +64,20 @@
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-
 }
 
-.img-journey{
+.img-journey {
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    background-color: #2DFCD8;
+    background-color: #2dfcd8;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     img {
         width: 30px;
         height: 30px;
     }
-
 }
-
-
-
