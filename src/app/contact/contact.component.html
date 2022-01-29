@@ -6,23 +6,28 @@
         </p>
     </div>
 
-    <form action="">
+    <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">
         <div>
             <p class="contact-text">Name</p>
-            <input name="name" class="input-container" placeholder="Dein Name">
+            <input type="text" placeholder="Dein Name" class="input-container" id="name" required
+                [(ngModel)]="contact.name" name="name">
         </div>
         <div>
             <p class="contact-text">E-Mail-Adresse</p>
-            <input name="email" class="input-container" placeholder="E-Mail-Adresse">
+            <input type="email" placeholder="E-Mail-Adresse" required [(ngModel)]="contact.email"
+                class="input-container" name="email" #email="ngModel">
         </div>
         <div>
             <p class="contact-text">Nachricht</p>
-            <textarea name="message" class="textarea-container" placeholder="Deine Nachricht an mich"></textarea> 
+            <textarea name="message" placeholder="Deine Nachricht an mich" required [(ngModel)]="contact.message"
+                #message="ngModel" class="textarea-container"></textarea>
         </div>
 
-        <div class="button-container"> <button type="submit" class="button-send">Senden</button>  </div>
-        
-        
+        <div class="button-container">
+            <button type="submit" class="button-send" [disabled]="!contactForm.form.valid">Senden</button>
+        </div>
+
+
     </form>
 
 

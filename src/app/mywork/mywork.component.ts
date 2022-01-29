@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, } from '@angular/core';
 
 @Component({
   selector: 'app-mywork',
@@ -6,10 +6,29 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mywork.component.scss']
 })
 export class MyworkComponent implements OnInit {
-
-  constructor() { }
+  showMeall:boolean = false;
+  showMeJavascript:boolean = false;
+  showMeAngular:boolean = false;
 
   ngOnInit(): void {
+  
   }
+toogleTagall(){
+  this.showMeall = true;
+  this.showMeJavascript = true;
+  this.showMeAngular = true;
+}
 
+toogleTagJavascript(){
+  this.showMeJavascript = true;
+  this.showMeAngular = false;
+  this.showMeall = false;
+}
+
+toogleTagAngular(){
+  this.showMeAngular = true;
+  this.showMeall = false;
+  this.showMeJavascript = false;
+}
+ 
 }
