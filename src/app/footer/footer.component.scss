@@ -25,3 +25,19 @@
         height: 40px;
     }
 }
+
+@media (max-width: 720px) {
+    .social{
+        margin-right: unset;
+    }
+
+    .footer{
+        min-height: 120px;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+
+    .footer-text{
+        margin-left: unset;
+    }
+}

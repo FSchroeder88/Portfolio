@@ -28,6 +28,7 @@ header {
     }
 }
 
+
 .menu1 {
     cursor: pointer;
 }
@@ -49,13 +50,18 @@ header {
 
 @media (max-width: 720px) {
     header {
+        padding-left: unset;
+            padding-right: unset;
         img {
-            width: 20px;
-            height: 20px;
+            width: 110px;
+            height: 100px;
+            
         }
     }
 
     .menu {
         display: none;
     }
+
+    
 }

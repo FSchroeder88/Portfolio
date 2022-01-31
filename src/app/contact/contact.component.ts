@@ -19,7 +19,7 @@ export class ContactComponent implements OnInit {
   constructor( private http: HttpClient) { }
 
   post = {
-    endPoint: 'https://f0148b85@fl-schroeder.de/send_mail.php', 
+    endPoint: 'https://fl-schroeder.de/send_mail.php', 
     
     body: (payload: any) => JSON.stringify(payload),
 

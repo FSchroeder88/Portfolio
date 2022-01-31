@@ -95,3 +95,27 @@
     position: absolute;
 }
 
+@media (max-width: 720px) {
+    .mywork-headline {
+        font-size: 30px;
+    }
+
+    .programming-language {
+        width: 100px;
+        height: 60px;
+    }
+
+    .overview-container {
+        flex-direction: column;
+    }
+
+    #project-img {
+        width: 306px;
+        height: 200px;
+
+        img {
+            width: 306px;
+            height: 200px;
+        }
+    }
+}

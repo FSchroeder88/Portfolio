@@ -7,3 +7,15 @@ body {
 html {
     scroll-behavior: smooth;
   }
+
+  @media (max-width: 720px) {
+  body {
+    min-width: 100vw; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  
+}
