@@ -11,6 +11,11 @@
 
 .footer-text{
     margin-left: 100px;
+
+    a {
+        text-decoration: none;
+        color:  #8491A0;
+    }
 }
 
 .social{
@@ -26,7 +31,7 @@
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 850px) {
     .social{
         margin-right: unset;
     }
@@ -35,6 +40,10 @@
         min-height: 120px;
         flex-direction: column-reverse;
         justify-content: space-around;
+
+        a {
+            text-decoration: none;
+        }
     }
 
     .footer-text{

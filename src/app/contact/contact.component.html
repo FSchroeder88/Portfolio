@@ -6,25 +6,23 @@
         </p>
     </div>
 
-    <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">
+    <form action="http://florian-schroeder.developerakademie.net/PHP/send_mail.php" method="POST">
         <div>
             <p class="contact-text">Name</p>
-            <input type="text" placeholder="Dein Name" class="input-container" id="name" required
-                [(ngModel)]="contact.name" name="name">
+            <input class="input-container" name="name" placeholder="Dein Name"required >
         </div>
         <div>
             <p class="contact-text">E-Mail-Adresse</p>
-            <input type="email" placeholder="E-Mail-Adresse" required [(ngModel)]="contact.email"
-                class="input-container" name="email" #email="ngModel">
+            <input type="email" placeholder="E-Mail-Adresse" required 
+                class="input-container"  >
         </div>
         <div>
             <p class="contact-text">Nachricht</p>
-            <textarea name="message" placeholder="Deine Nachricht an mich" required [(ngModel)]="contact.message"
-                #message="ngModel" class="textarea-container"></textarea>
+            <textarea  class="textarea-container" name="message" placeholder="Deine Nachricht an mich"required ></textarea>
         </div>
 
         <div class="button-container">
-            <button type="submit" class="button-send" [disabled]="!contactForm.form.valid">Senden</button>
+            <button class="button-send" type="submit">Senden</button>
         </div>
 
 
