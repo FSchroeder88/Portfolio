@@ -59,6 +59,22 @@
     }
 }
 
+.programming-language2{
+    width:auto;
+    height: 35px;
+    border: 2px solid #fa2759;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+    p {
+        margin: 5px;
+    }
+}
+
 #project-img {
     margin: 20px;
     width: 406px;
@@ -75,7 +91,7 @@
 
     :hover {
         display: block;
-        opacity: 0.5;
+        opacity: 0.4;
         transform: scale(1.03);
     }
 }

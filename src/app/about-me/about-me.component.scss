@@ -65,6 +65,19 @@
     align-items: center;
 }
 
+.img-text2 {
+    width: 250px;
+    height: 350px;
+    margin: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .img-journey {
     width: 50px;
     height: 50px;
@@ -80,7 +93,8 @@
     }
 }
 
-@media (max-width: 850px) {
+
+@media (max-width: 1200px) {
     .about {
         flex-direction: column;
         padding: unset;
@@ -107,5 +121,9 @@
         margin: unset;
         margin-top: 20px;
         margin-bottom: unset;
+    }
+
+    .img-text2 {
+        height: 230px;
     }
 }
