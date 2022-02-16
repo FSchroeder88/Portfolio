@@ -1,9 +1,9 @@
 <div class="mywork" id="projects">
     <h3 class="mywork-headline">Meine Projekte</h3>
     <div class="overview">
-        <div class="programming-language" (click)="toogleTagall()" ><p>Alle</p></div>
-        <div class="programming-language" (click)="toogleTagAngular()"style="background-color:#fa2759 ;"><p>Angular</p></div>
-        <div class="programming-language" (click)="toogleTagJavascript()"><p>JavaScript</p></div>
+        <div [class]="showMeallColor ? 'programming-language-active' : 'programming-language' " (click)="toogleTagall()" ><p>Alle</p></div>
+        <div [class]="showMeangularColor ? 'programming-language-active' : 'programming-language' " (click)="toogleTagAngular()"><p>Angular</p></div>
+        <div [class]="showMejsColor ? 'programming-language-active' : 'programming-language' "(click)="toogleTagJavascript()"><p>JavaScript</p></div>
     </div>
 
     <div class="overview-projects">
