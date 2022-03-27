@@ -1,9 +1,18 @@
 <div class="mywork" id="projects">
     <h3 class="mywork-headline">Meine Projekte</h3>
     <div class="overview">
-        <div [class]="showMeallColor ? 'programming-language-active' : 'programming-language' " (click)="toogleTagall()" ><p>Alle</p></div>
-        <div [class]="showMeangularColor ? 'programming-language-active' : 'programming-language' " (click)="toogleTagAngular()"><p>Angular</p></div>
-        <div [class]="showMejsColor ? 'programming-language-active' : 'programming-language' "(click)="toogleTagJavascript()"><p>JavaScript</p></div>
+        <div [class]="showMeallColor ? 'programming-language-active' : 'programming-language' "
+            (click)="toogleTagall()">
+            <p>Alle</p>
+        </div>
+        <div [class]="showMeangularColor ? 'programming-language-active' : 'programming-language' "
+            (click)="toogleTagAngular()">
+            <p>Angular</p>
+        </div>
+        <div [class]="showMejsColor ? 'programming-language-active' : 'programming-language' "
+            (click)="toogleTagJavascript()">
+            <p>JavaScript</p>
+        </div>
     </div>
 
     <div class="overview-projects">
@@ -13,23 +22,38 @@
                     <p>Webseite Sakura Ramen</p>
                 </div>
                 <div id="link">
-                    <a href="http://f0144369@florian-schroeder.developerakademie.net/Modul%203/Website_Sakura_Ramen.html">
+                    <a
+                        href="http://f0144369@florian-schroeder.developerakademie.net/Modul%203/Website_Sakura_Ramen.html">
                         <img src="assets\imgs\Sakura.PNG"></a>
                 </div>
             </div>
+
             <div id="project-img" *ngIf="showMeall">
                 <div class="programming-language2" id="project-text">
                     <p>Ofengalerie</p>
                 </div>
                 <div id="link">
-                    <a href="http://f0144369@florian-schroeder.developerakademie.net/Modul%207/Gallerie/Gallerieshow.html">
+                    <a
+                        href="http://f0144369@florian-schroeder.developerakademie.net/Modul%207/Gallerie/Gallerieshow.html">
                         <img src="assets\imgs\Galerie.PNG"></a>
                 </div>
             </div>
         </div>
+
         <div class="overview-container">
             <div id="project-img" *ngIf="showMeJavascript">
-                <div class="programming-language2"  id="project-text" >
+                <div class="programming-language2" id="project-text">
+                    <p>Lieferdino</p>
+                </div>
+                <div id="link">
+                    <a
+                        href="http://f0144369@florian-schroeder.developerakademie.net/Modul%207/Lieferando/LieferDino.html">
+                        <img src="assets\imgs\LieferDino.PNG"></a>
+                </div>
+            </div>
+
+            <div id="project-img" *ngIf="showMeJavascript">
+                <div class="programming-language2" id="project-text">
                     <p>Pokedex mit API</p>
                 </div>
                 <div id="link">
@@ -50,33 +74,33 @@
                             src="assets\imgs\QuizApp.PNG"></a>
                 </div>
             </div>
+
             <div id="project-img" *ngIf="showMeAngular">
-                <div class="programming-language2"  id="project-text">
+                <div class="programming-language2" id="project-text">
                     <p>Portfolio</p>
                 </div>
                 <div id="link">
-                    <a
-                        href="http://fl-schroeder.de"><img
-                            src="assets\imgs\Portfolio.PNG"></a>
+                    <a href="http://fl-schroeder.de"><img src="assets\imgs\Portfolio.PNG"></a>
                 </div>
             </div>
         </div>
 
         <div class="overview-container">
             <div id="project-img" *ngIf="showMeAngular">
-                <div class="programming-language2"  id="project-text">
+                <div class="programming-language2" id="project-text">
                     <p>Ring of Fire</p>
                 </div>
                 <div id="link">
                     <a href="http://ring-of-fire-df70c.web.app/"> <img src="assets\imgs\RingofFire.PNG"></a>
                 </div>
             </div>
+            
             <div id="project-img" *ngIf="showMeJavascript">
-                <div class="programming-language2"  id="project-text">
-                    <p>El Pollo Loco (in Bearbeitung)</p>
+                <div class="programming-language2" id="project-text">
+                    <p>El Pollo Loco </p>
                 </div>
                 <div id="link">
-                    <a href="#"><img src="assets\imgs\Elpolloloco.PNG"></a>
+                    <a href="#"><img src="assets\imgs\Opción2.png"></a>
                 </div>
             </div>
         </div>
