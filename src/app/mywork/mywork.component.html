@@ -1,58 +1,58 @@
 <div class="mywork" id="projects">
     <h3 class="mywork-headline">Meine Projekte</h3>
     <div data-aos="zoom-in-up" class="overview">
-        <div [class]="showMeallColor ? 'programming-language-active' : 'programming-language' "
-            (click)="toogleTagall()">
-            <p>Alle</p>
+        <div class="programming-language-block">
+            <div [class]="showMeallColor ? 'programming-language-active' : 'programming-language' " (click)="toogleTagall()">
+                <p>Alle</p>
+            </div>
+            <div [class]="showMeDjangoColor ? 'programming-language-active' : 'programming-language' " (click)="toogleTagDjango()">
+                <p>Django</p>
+            </div>
         </div>
-        <div [class]="showMeangularColor ? 'programming-language-active' : 'programming-language' "
-            (click)="toogleTagAngular()">
-            <p>Angular</p>
-        </div>
-        <div [class]="showMejsColor ? 'programming-language-active' : 'programming-language' "
-            (click)="toogleTagJavascript()">
-            <p>JavaScript</p>
+        <div class="programming-language-block">
+            <div [class]="showMeangularColor ? 'programming-language-active' : 'programming-language' " (click)="toogleTagAngular()">
+                <p>Angular</p>
+            </div>
+            <div [class]="showMejsColor ? 'programming-language-active' : 'programming-language' " (click)="toogleTagJavascript()">
+                <p>JavaScript</p>
+            </div>
         </div>
     </div>
 
     <div class="overview-projects">
 
         <div class="overview-container">
-            <div  data-aos="flip-down" id="project-img" *ngIf="showMeJavascript">
+            <div data-aos="flip-down" id="project-img" *ngIf="showMeJavascript">
                 <div class="programming-language2" id="project-text">
                     <p>Lieferdino</p>
                 </div>
                 <div id="link">
-                    <a
-                        href="http://f0144369@florian-schroeder.developerakademie.net/Modul%207/Lieferando/LieferDino.html">
+                    <a href="http://f0144369@florian-schroeder.developerakademie.net/Modul%207/Lieferando/LieferDino.html">
                         <img src="assets\imgs\mockup-of-a-macbook-in-a-cozy-home-office-3815-el1.png"></a>
                 </div>
             </div>
 
-            <div  data-aos="flip-down" id="project-img" *ngIf="showMeJavascript">
+            <div data-aos="flip-down" id="project-img" *ngIf="showMeJavascript">
                 <div class="programming-language2" id="project-text">
                     <p>Pokedex mit API</p>
                 </div>
                 <div id="link">
-                    <a href="http://f0144369@florian-schroeder.developerakademie.net/Modul%209/Pokedex/Pokedex.html"><img
-                            src="assets\imgs\mockup-of-a-macbook-pro-on-a-table-at-a-coffee-shop-2447-el1.png"></a>
+                    <a href="http://f0144369@florian-schroeder.developerakademie.net/Modul%209/Pokedex/Pokedex.html"><img src="assets\imgs\mockup-of-a-macbook-pro-on-a-table-at-a-coffee-shop-2447-el1.png"></a>
                 </div>
             </div>
         </div>
 
         <div class="overview-container">
-            <div  data-aos="flip-down" id="project-img" *ngIf="showMeJavascript">
+            <div data-aos="flip-down" id="project-img" *ngIf="showMeJavascript">
                 <div class="programming-language2" id="project-text">
                     <p>QuizApp</p>
                 </div>
                 <div id="link">
-                    <a
-                        href="http://f0144369@florian-schroeder.developerakademie.net/Modul%207/QuizApp/QuizAppStart.html"><img
-                            src="assets\imgs\macbook-mockup-featuring-a-desk-with-dim-light-3830-el1.png"></a>
+                    <a href="http://f0144369@florian-schroeder.developerakademie.net/Modul%207/QuizApp/QuizAppStart.html"><img src="assets\imgs\macbook-mockup-featuring-a-desk-with-dim-light-3830-el1.png"></a>
                 </div>
             </div>
 
-            <div  data-aos="flip-down" id="project-img" *ngIf="showMeAngular">
+            <div data-aos="flip-down" id="project-img" *ngIf="showMeAngular">
                 <div class="programming-language2" id="project-text">
                     <p>Portfolio</p>
                 </div>
@@ -63,7 +63,7 @@
         </div>
 
         <div class="overview-container">
-            <div  data-aos="flip-down" id="project-img" *ngIf="showMeAngular">
+            <div data-aos="flip-down" id="project-img" *ngIf="showMeAngular">
                 <div class="programming-language2" id="project-text">
                     <p>Ring of Fire</p>
                 </div>
@@ -72,12 +72,31 @@
                 </div>
             </div>
 
-            <div  data-aos="flip-down" id="project-img" *ngIf="showMeJavascript">
+            <div data-aos="flip-down" id="project-img" *ngIf="showMeAngular">
                 <div class="programming-language2" id="project-text">
-                    <p>El Pollo Loco </p>
+                    <p>Join </p>
                 </div>
                 <div id="link">
-                    <a href="#"><img src="assets\imgs\mockup-of-a-macbook-air-next-to-some-plant-pots-2440-el1.png"></a>
+                    <a href="#"><img src="assets\imgs\Join-Mockup.jpg"></a>
+                </div>
+            </div>
+        </div>
+        <div class="overview-container">
+            <div data-aos="flip-down" id="project-img" *ngIf="showMeDjango">
+                <div class="programming-language2" id="project-text">
+                    <p>Bird-Chat</p>
+                </div>
+                <div id="link">
+                    <a href="https://bird-chat.de"> <img src="assets\imgs\Bird-Chat-Mockup.jpg"></a>
+                </div>
+            </div>
+
+            <div data-aos="flip-down" id="project-img" *ngIf="showMeDjango">
+                <div class="programming-language2" id="project-text">
+                    <p>NetMovie </p>
+                </div>
+                <div id="link">
+                    <a href="#"><img src="assets\imgs\NetMovie-Mockup.jpg"></a>
                 </div>
             </div>
         </div>

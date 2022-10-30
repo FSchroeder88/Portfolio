@@ -39,6 +39,11 @@
     align-items: center;
 }
 
+.programming-language-block {
+    display: flex;
+    flex-direction: row;
+}
+
 .programming-language {
     width: 128px;
     height: 70px;
@@ -52,7 +57,6 @@
     justify-content: center;
     align-items: center;
     background-color: black;
-
     &:hover {
         opacity: 0.5;
         cursor: pointer;
@@ -72,8 +76,6 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    
-
     &:hover {
         opacity: 0.5;
         cursor: pointer;
@@ -90,7 +92,6 @@
     justify-content: center;
     align-items: center;
     background-color: black;
-
     p {
         margin: 5px;
     }
@@ -104,13 +105,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     img {
         width: 406px;
         height: 300px;
     }
-
-    :hover {
+     :hover {
         display: block;
         opacity: 0.4;
         transform: scale(1.03);
@@ -135,23 +134,25 @@
     .mywork-headline {
         font-size: 30px;
     }
-
     .programming-language {
         width: 100px;
         height: 60px;
     }
-
     .overview-container {
         flex-direction: column;
     }
-
     #project-img {
         width: 306px;
         height: 200px;
-
         img {
             width: 306px;
             height: 200px;
         }
+    }
+}
+
+@media (max-width: 550px) {
+    .programming-language-block {
+        flex-direction: column;
     }
 }
